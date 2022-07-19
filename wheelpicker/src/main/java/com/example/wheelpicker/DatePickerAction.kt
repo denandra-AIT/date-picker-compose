@@ -1,14 +1,9 @@
-package com.ait.android.aitprodut.utils
+package com.example.wheelpicker
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.Window
-import com.ait.core.R
-import com.ait.core.wheelpicker.DayTimePicker
-import com.ait.core.wheelpicker.DayTimePickerView
-import java.util.*
 
 @SuppressLint("InflateParams")
 fun datePickerAction(

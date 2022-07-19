@@ -1,17 +1,14 @@
-package com.ait.core.wheelpicker
+package com.example.wheelpicker
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
-import android.view.View
 import android.widget.FrameLayout
-import androidx.core.content.ContextCompat
-import com.ait.core.R
-import com.ait.core.databinding.TriplePickerViewBinding
-import com.ait.core.wheelpicker.core.BaseWheelPickerView
-import com.ait.core.wheelpicker.core.TextWheelAdapter
-import com.ait.core.wheelpicker.core.TextWheelPickerView
+import com.example.wheelpicker.core.BaseWheelPickerView
+import com.example.wheelpicker.core.TextWheelAdapter
+import com.example.wheelpicker.core.TextWheelPickerView
+import com.example.wheelpicker.databinding.TriplePickerViewBinding
 import java.text.SimpleDateFormat
 import java.util.*
 

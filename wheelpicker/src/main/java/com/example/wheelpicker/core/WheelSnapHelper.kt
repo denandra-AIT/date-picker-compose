@@ -1,4 +1,4 @@
-package com.ait.core.wheelpicker.core
+package com.example.wheelpicker.core
 
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager

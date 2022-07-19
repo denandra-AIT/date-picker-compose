@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AITProduct" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/purple_700</item>
+    </style>
+
+    <style name="DatePickerSpinnerStyle" parent="@android:style/Widget.DeviceDefault.DatePicker">
+        <item name="android:colorControlNormal">@color/purple_200</item>
+        <item name="android:textColorPrimary">@color/purple_700</item>
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+
+    <style name="WheelSheetTranslate">
+        <item name="android:windowEnterAnimation">@anim/wheel_sheet_translate_in</item>
+        <item name="android:windowExitAnimation">@anim/wheel_sheet_translate_out</item>
+    </style>
+</resources>

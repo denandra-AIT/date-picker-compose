@@ -11,8 +11,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 
-import com.ait.core.R;
-
 public final class PickerActionSheetContentBinding implements ViewBinding {
     @NonNull
     private final LinearLayout rootView;

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="8dp"
+        tools:ignore="UselessParent">
+
+        <com.example.wheelpicker.DayTimePickerView
+            android:id="@+id/custom_picker_views"
+            android:layout_width="match_parent"
+            android:layout_height="210dp" />
+
+    </FrameLayout>
+
+</LinearLayout>

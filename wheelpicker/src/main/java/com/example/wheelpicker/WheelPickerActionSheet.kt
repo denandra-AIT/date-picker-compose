@@ -5,7 +5,8 @@ import android.graphics.Rect
 import android.graphics.drawable.BitmapDrawable
 import android.view.*
 import android.widget.PopupWindow
-import com.ait.core.R
+import com.example.wheelpicker.PickerActionSheetContentBinding
+import com.example.wheelpicker.R
 
 abstract class WheelPickerActionSheet<Picker : View>(context: Context) {
     var pickerView: Picker? = null
